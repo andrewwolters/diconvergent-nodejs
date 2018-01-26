@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "faucet test/*.js"
+    "test": "tape test/*.js | faucet"
   },
   "devDependencies": {
     "faucet": "0.0.1",

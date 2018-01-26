@@ -2,12 +2,15 @@
 
 ### Installation
 
-Please clone this project and run the tests.
+Clone this project and run the tests.
 
-* Using NPM:
-  - Make sure Node 9 and NPM is installed.
+* Using NPM: (make sure at least Node.js 8 and NPM are installed)
   - `npm install`
   - `npm test`
+
+* Using Docker:
+  - `make install`
+  - `make test`
 
 ### Further info
 
